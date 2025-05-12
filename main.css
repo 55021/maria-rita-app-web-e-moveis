@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E2DBDB;
+}
+
+nav {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #000;
+}
+
+nav a.active, #formulario-contato label {
+    font-weight: bold;
+    color: #2E4052;
+}
+
+#content {
+    padding: 40px 20px;
+    min-height: 100px;
+    background-color: hsla(0, 0%, 100%, 0.65);
+}
+
+#content a {
+    color: #8EA290;
+}
+
+#formulario-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-contato button {
+    background-color: #2E4052;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
